@@ -1,0 +1,18 @@
+storyLine = ("Hello there. I am going to ask you several questions \n")
+print(storyLine)
+
+
+thingsYouLike = input("What things do you like?" )
+
+thingsYouDislike = input("What things do you NOT like?" )
+
+namesofFamily = input("What is your favorite name out of your family or friends? ")
+
+
+
+
+print("well it looks like you like:", thingsYouLike, "you do not like:", thingsYouDislike, "and your favorite name is:", namesofFamily)
+
+
+#to print in color you will adjust the number after the bracket.
+print("\033[33m")
