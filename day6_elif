@@ -1,0 +1,70 @@
+#stands for elseif
+#allows us to ask an unlimited amount of questions.
+#must go inbetween if and else statements. 
+#print needs to stay aligned with the other print statements
+
+print("SECURE LOGIN")
+username = input("Username > ")
+if username == "mark":
+  print("Welcome Mark!")
+else:
+  print("Go away!")
+  
+  
+print("SECURE LOGIN")
+username = input("Username > ")
+password = input("Password> ")
+
+if username == "mark" and password == "password":
+ print("Welcome Mark!")
+elif username == "suzanne":
+ print("Hey there Suzanne!")
+else:
+ print("Go away!")
+ 
+
+#add passwords. 
+print("SECURE LOGIN")
+username = input("Username > ")
+password = input("Password> ")
+
+if username == "mark" and password == "password":
+ print("Welcome Mark!")
+elif username == "suzanne":
+ print("Hey there Suzanne!")
+else:
+ print("Go away!")
+ 
+ 
+ 
+ #fixed 
+ season = input("what is your favorite season?")
+if season == "spring":
+  print("Ah! The birds are chirping and flowers blooming.")
+elif season == "summer":
+  print("Catch some sun and cool off with a lemonade.")
+elif season == "autumn":
+  print("The leaves are changing and the air is crisp. Enjoy!")
+elif season == "winter":
+      print("Stay warm by the fire and watch the snow fall.")
+else: 
+  print("I don't know that season. Please try again.")
+  
+  
+ #challenge - create login/password for 3 different users - ensure else is at the end. 
+ print("SECURE LOGIN")
+username = input("Username > ")
+password = input("Password> ")
+
+if username == "Raf" and password == "password1":
+ print("Welcome Raf!")
+
+elif username == "Ale" and password == "password1":
+ print("Welcome Raf!")
+
+elif username == "Rico" and password == "password1":
+ print("We miss you Rico!")
+
+else:
+  print("User does not exist or you have entered the wrong password.")
+ 
