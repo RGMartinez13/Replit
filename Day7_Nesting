@@ -51,6 +51,21 @@ else:
   
  
  #Challenge
+ streamService = input("Are you a Hulu watcher or Netflix? ")
+if streamService == "Netflix":
+  print("Same here!")
+  binge = input("Do you binge watch new shows like me?")
+  if binge == "yes":
+    print("Yes, there is no other way!")
+  else: 
+    print("No, I actually have self control.")
+elif streamService == "Hulu":
+  print("Hulu is OK...")
+  movies = input("Do you enjoy their movie selection?")
+  if movies == "yes":
+    print("I have to check it out")
+else:
+  print("interesting")
   
   
   
@@ -62,5 +77,19 @@ else:
   
   
   
+print ("Are you a superfan of 'The Big Bang Theory' or a fake fan?")
+print()
+print("Answer these questions to find out.")
+
+Glasses = input("Does someone wear glasses?")
+if Glasses == "yes":
+  print("Correct!")
+else:
+  print("Wrong!")
+  WhoGlasses = input("And who wears glasses?")
+  if WhoGlasses == "Leonard":
+    print("You got it")
+  else:
+    print("Try again!")
   
   
