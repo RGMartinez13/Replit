@@ -1,7 +1,19 @@
-#sample
+#he way the computer will read this code is by starting with what is in brackets first ("your score"). 
+#The computer thinks this is text because of the "". When we add int, we are telling the computer, "This is not text. Please convert this to a whole number." 
+#Now the variable, myScore will store the answer as a number.
 
+
+#sample
 myScore = int(input("Your score: "))
 if myScore > 100000:
   print("Winner!")
+else:
+  print("Try again 😭")
+
+#float
+
+myPi = float(input("What is Pi to 3dp? "))
+if myPi == 3.142 :
+  print("Exactly!")
 else:
   print("Try again 😭")
