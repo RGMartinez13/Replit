@@ -33,3 +33,36 @@ elif name == "David" or name== "david":
    print(name, "it's FRIDAY!")
 else:
  print("I do not know your name, but I hope you are having a great day!")
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #Build a custom affirmations generator to give the user a customized affirmation each day of the week.
+
+
+print("Hello. Welcome to your daily affirmation generator.")
+name = input("What is your name?")
+if name =="Rafael" or name == "Raf":
+  print("That's the same name as the archangel!\n")
+else:
+ print("Who on earth are you?!")
+
+day = input("what is your favorite day of the week?")
+print()
+if day == "Tuesday" or "Wednesday" or "Thursday" or "Friday":
+ if day == "tuesday" or day == "Tuesday":
+   print("What a wonderful Tuesday it is", name)
+ if day == "wednesday" or day == "Wednesday":
+   print("Happy Hump Day", name)
+ if day == "thursday" or day == "Thursday":
+   print(name,"your week is almost over!")
+ if day == "friday" or day == "Friday":
+   print(name, "It's Payday!$!$")
+
