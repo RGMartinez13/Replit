@@ -1,0 +1,12 @@
+#On day 14 we build a rock, paper, scissors game.
+#Start with this code below to ensure that whenever you use input, each player cannot see what the other player typed in
+
+from getpass import getpass as input
+
+player1 = input("What is your name?\n")
+print("You will be player1", player1)
+
+player2=input("what is your name? You will be Player2")
+
+print("Welcome to the thunderdome!")
+
