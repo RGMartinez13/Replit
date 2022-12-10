@@ -1,0 +1,11 @@
+#intro to while loops.
+#A while loop allows your code to repeat itself based on a condition you set.
+#similar to if,  as long as the answer is true, the computer will repeatedly run the code.
+#while -> true -> continue, else stop.
+
+#example, anything we need to "count".
+
+counter = 0
+while counter < 10:
+  print(counter)
+  counter +=1
