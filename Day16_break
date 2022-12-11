@@ -4,3 +4,18 @@ while True:
   if goAgain == "no":
     break
 print("Aww, I was having a good time 😭")
+
+#################################################
+#keep in mind True and False, need to have a capital. 
+
+counter = 0
+while True:
+  answer = int(input("Enter a number: "))
+  print("Adding it up!")
+  counter += answer
+  print("Current total is", counter)
+  addAnother = input("Add another? ")
+  if addAnother == "no":
+    break
+print("Bye!")
+
