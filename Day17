@@ -1,9 +1,18 @@
 #break leaves the loop completely and runs the next unindented line of code. 
 #However, you may want to stop the code and start the loop from the top again. (This is ideal for building games!)
 
+
 while True:
   print("You are in a corridor, do you go left or right?")
   direction = input("> ")
   if direction == "left":
     print("You have fallen to your death")
     break
+  elif direction == "right":
+    continue
+  else:
+    print("Ahh! You're a genius, you've won")
+
+
+#The else statement refers to any input besides left or right (up or esc). 
+#Since the user is a winner, we do not want to use break or it would say they have failed.
