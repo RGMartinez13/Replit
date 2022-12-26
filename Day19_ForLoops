@@ -44,3 +44,6 @@ monthlyPayment = loan * interestRate * (1+ interestRate) * numberOfPayments \
 
 #Round to two decimals
 print("Your monthly payment will be $%.2f" % monthlyPayment)
+
+
+#if you ran this, let my know if you think its off. 
