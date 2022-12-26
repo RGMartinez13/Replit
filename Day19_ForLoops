@@ -42,5 +42,5 @@ numberOfPayments = loanDurationInYears*12
 monthlyPayment = loan * interestRate * (1+ interestRate) * numberOfPayments \
     / ((1 + interestRate) * numberOfPayments -1)
 
-#Extra credit
+#Round to two decimals
 print("Your monthly payment will be $%.2f" % monthlyPayment)
